@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: #fff;
+  color: #6070ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 12px;
+  width: 100px;
+  height: 33px;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.logo a {
+  color: inherit;
+}
+
+.menu {
+  float: right;
+  display: flex;
+  height: 16px;
+  margin-right: 10px;
+  color: #2230d2;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+}
+
+.headline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: url(assets/images/header-shapes-mobile.png);
+  min-height: 591px;
+  width: auto;
+  border-radius: 0 0 0 100px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+}
+
+.headline {
+  margin-left: 25px;
+}
+
+.title {
+  margin: 10px 0;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.intro {
+  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect {
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 17px;
+  margin-top: 10px;
+}
+
+.social-media-icons > a,
+i {
+  color: #505f79;
+  font-size: 1.25rem;
+  padding-right: 1em;
+}
+
+/* This applies from 768px onwards */
+@media (min-width: 768px) {
+  * {
+    margin: auto;
+  }
+}
