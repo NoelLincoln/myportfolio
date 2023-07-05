@@ -53,3 +53,69 @@ ul {
 .menu:hover {
   transform: scale(1.2);
 }
+
+.headline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: url(assets/images/header-shapes-mobile.png);
+  min-height: 591px;
+  width: auto;
+  border-radius: 0 0 0 100px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+
+  background-size: 100%;
+  background-position-x: center;
+}
+
+.headline {
+  margin-left: 25px;
+}
+
+.title {
+  margin: 10px 0;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.intro {
+  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect {
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 17px;
+  margin-top: 10px;
+}
+
+.social-media-icons > a,
+i {
+  color: #505f79;
+  font-size: 1.25rem;
+  padding-right: 1em;
+}
+
+/* This applies from 768px onwards */
+@media (min-width: 768px) {
+}
