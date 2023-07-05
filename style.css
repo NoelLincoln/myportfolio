@@ -33,6 +33,7 @@ ul {
   width: 100px;
   height: 33px;
 }
+
 .logo:hover {
   transform: scale(1.2);
 }
@@ -66,7 +67,6 @@ ul {
   border-radius: 0 0 0 100px;
   background-color: #fff;
   background-repeat: no-repeat;
-
   background-size: 100%;
   background-position-x: center;
 }
@@ -118,4 +118,7 @@ i {
 
 /* This applies from 768px onwards */
 @media (min-width: 768px) {
+  * {
+    margin: auto;
+  }
 }
