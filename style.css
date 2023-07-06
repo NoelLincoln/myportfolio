@@ -467,34 +467,19 @@ li.javascript {
 .socials {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding-left: 5px;
   margin-bottom: 15px;
-  width: 200px;
-  flex: none;
   order: 2;
-  flex-grow: 0;
 }
 
-.support-text {
-  padding: 0;
-  width: 117px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.support-text > p {
-  width: 117px;
+.support-text > h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  flex: none;
   order: 0;
-  flex-grow: 0;
 }
 
 .social-med {
@@ -505,7 +490,6 @@ li.javascript {
   padding: 0;
   list-style-type: none;
   margin-top: 10px;
-  width: 200px;
   order: 1;
 }
 
