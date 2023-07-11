@@ -702,7 +702,8 @@ input[type='checkbox']:focus + label {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-top: 75px;
+  margin-top: 2em;
+  margin-bottom: 1em;
   color: #fff;
 }
 
@@ -714,13 +715,14 @@ input[type='checkbox']:focus + label {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  margin-bottom: 50px;
 }
 
 .contact-form form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 10px;
+  gap: 15px;
 }
 
 input[type='text'] {
