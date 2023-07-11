@@ -721,6 +721,29 @@ input[type='checkbox']:focus + label {
   gap: 10px;
 }
 
+input[type="text"] {
+  height: 48px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+input[type="email"] {
+  height: 48px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
 /* This applies from 768px onwards */
 @media (min-width: 768px) {
   * {
