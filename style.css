@@ -693,7 +693,7 @@ input[type='checkbox']:focus + label {
   align-items: center;
   background-image: url(assets/images/contact-form-mobile.svg);
   background-repeat: no-repeat;
-  background-position-x: 195px;
+  background-position: right;
 }
 
 .contact-form h2 {
