@@ -592,6 +592,7 @@ li.javascript {
 
 .dropdown-btn {
   background: #fff;
+  width: inherit;
   font-size: 18px;
   border: none;
   color: #292525;
@@ -678,6 +679,30 @@ input[type='checkbox']:focus + label {
   left: 12px;
   margin-top: 10px;
   margin-left: 5px;
+}
+
+.contact-form {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top-left-radius: 80px 80px;
+  padding: 10px 24px;
+  flex-direction: column;
+  background: #6070ff;
+  align-items: center;
+  background-image: url(assets/images/contact-form-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: 195px;
+}
+
+.contact-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 75px;
+  color: #fff;
 }
 
 /* This applies from 768px onwards */
