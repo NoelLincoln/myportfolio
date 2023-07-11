@@ -705,6 +705,22 @@ input[type='checkbox']:focus + label {
   color: #fff;
 }
 
+.contact-form p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
 /* This applies from 768px onwards */
 @media (min-width: 768px) {
   * {
