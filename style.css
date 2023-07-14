@@ -867,10 +867,22 @@ input[type='submit']:active {
     margin-right: 0;
   }
 
+  body {
+    height: 100vh;
+  }
+
   .top h2,
   p,
   .socials {
     margin-left: 0;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .intro {
+    font-size: 20px;
   }
 
   .support-text {
