@@ -11,6 +11,10 @@ html {
   background-color: #f7f7f9;
 }
 
+body {
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
 }
@@ -63,8 +67,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 10px;
   background-image: url(assets/images/desktop-header-bg.png);
   min-height: 591px;
   width: auto;
@@ -193,6 +196,8 @@ i {
 }
 
 .client {
+  display: flex;
+  align-items: center;
   padding: 8px 0;
   width: 55px;
   height: 42px;
@@ -541,6 +546,7 @@ li.javascript {
 .skill-list {
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
   align-items: center;
   padding: 0;
   width: 100%;
@@ -800,7 +806,7 @@ input[type='submit']:active {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    text-decoration: none !important;
+    text-decoration: none;
   }
 
   .headline-container {
@@ -841,8 +847,8 @@ input[type='submit']:active {
   }
 
   .about-myself {
-    padding: 114px 120px;
     flex-direction: row;
+    padding-left: 70px;
   }
 
   .skill-list {
@@ -885,6 +891,10 @@ input[type='submit']:active {
     font-size: 20px;
   }
 
+  .action {
+    width: inherit;
+  }
+
   .support-text {
     margin-left: 0;
     text-transform: uppercase;
@@ -921,5 +931,9 @@ input[type='submit']:active {
 
   textarea {
     width: 80%;
+  }
+
+  .swap {
+    grid-row-start: 1;
   }
 }
